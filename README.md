@@ -19,7 +19,7 @@ Install the required packages using npm:
 
 Create a .env file in the root directory to store your environment variables.
 
-    API_KEY=your_api_key
+    VITE_API_KEY = your_api_key
 
 Replace your_api_key with actual values as needed.
 
