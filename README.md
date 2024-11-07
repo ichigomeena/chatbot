@@ -13,15 +13,14 @@ First, clone the Bourbon repository:
 
 Install the required packages using npm:
 
-``bash
     npm install
+
 ## Environment Variables
 
-Create a .env file in the root directory to store your environment variables. Here’s an example format:
+Create a .env file in the root directory to store your environment variables.
 
-dotenv
-Copy code
-API_KEY=your_api_key
+    API_KEY=your_api_key
+
 Replace your_api_key with actual values as needed.
 
 ## Run the Application
