@@ -2,6 +2,35 @@
 
 Bourbon is an AI-powered web application designed to assist users by providing dynamic responses to their queries. The project leverages modern web development practices to deliver a user-friendly interface for interacting with the AI. 
 
+# Installation & Setup
+## Clone the Repository
+
+First, clone the Bourbon repository:
+
+    git clone https://github.com/swarn-bera/bourbonAI.git
+
+## Install Dependencies
+
+Install the required packages using npm:
+
+``bash
+    npm install
+## Environment Variables
+
+Create a .env file in the root directory to store your environment variables. Here’s an example format:
+
+dotenv
+Copy code
+API_KEY=your_api_key
+Replace your_api_key with actual values as needed.
+
+## Run the Application
+
+After setting up the environment, start the application:
+
+    npm run dev
+
+The application should now be running and accessible.
 
 ## Features
 - **AI-Powered Responses**: Bourbon utilizes AI algorithms to generate responses to user inputs.
